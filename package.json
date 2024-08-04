@@ -1,0 +1,11 @@
+{
+  "name": "toyskip725.github.io",
+  "version": "1.0.0",
+  "description": "github pages",
+  "scripts": {
+    "serve": "serve"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}

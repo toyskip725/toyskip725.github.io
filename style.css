@@ -16,3 +16,17 @@ h1 {
   font-weight: normal;
   padding-top: 0.5em;
 }
+
+@media screen and (max-width: 640px) {
+  h1 {
+    font-size: x-large;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  li {
+    font-size: small;
+  }
+}

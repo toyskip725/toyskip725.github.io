@@ -2,9 +2,11 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   max-width: 1280px;
   margin: auto;
+  background-color: #fafafa;
 }
 
 header {
+  color: #2a2a31;
   padding: 20px 10px 0px 10px;
 }
 
@@ -13,8 +15,17 @@ main {
 }
 
 h1 {
+  color: #2a2a31;
   font-weight: normal;
   padding-top: 0.5em;
+}
+
+p {
+  color: #2a2a31;
+}
+
+li {
+  color: #2a2a31;
 }
 
 @media screen and (max-width: 640px) {

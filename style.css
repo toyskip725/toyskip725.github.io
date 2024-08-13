@@ -22,22 +22,24 @@ h1 {
 
 p {
   color: #2a2a31;
+  line-height: 1.75em;
 }
 
 li {
   color: #2a2a31;
+  line-height: 1.75em;
 }
 
 @media screen and (max-width: 640px) {
   h1 {
-    font-size: x-large;
+    font-size: 1.5rem;
   }
 
   p {
-    font-size: small;
+    font-size: 0.875rem;
   }
 
   li {
-    font-size: small;
+    font-size: 0.875rem;
   }
 }

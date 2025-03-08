@@ -30,6 +30,20 @@ li {
   line-height: 1.75em;
 }
 
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+.profile-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: 0.5em 1em;
+}
+.profile-content {
+  margin: 0em 1em;
+}
+
 @media screen and (max-width: 640px) {
   h1 {
     font-size: 1.5rem;
@@ -41,5 +55,9 @@ li {
 
   li {
     font-size: 0.875rem;
+  }
+
+  .profile-container {
+      display: block;
   }
 }
